@@ -1,0 +1,59 @@
+[
+    {
+    "name": "Patient",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+        "Conoce el nombre, ID, edad y número de teléfono del paciente.",
+        "Verificar que los datos sean válidos."
+    ],
+    "collaborators": [
+        "Program.",
+        "AppointmentService."
+    ]
+    },
+    {
+    "name": "Doctor",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+        "Conocer los datos necesarios para crear una instancia de Doctor.",
+        "Verificar que sean válidos"
+    ],
+    "collaborators": [
+        "Program.",
+        "AppointmentService."
+    ]
+    },
+    {
+    "name": "Appointment",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+        "Representa un turno."
+    ],
+    "collaborators": [
+        "Doctor.",
+        "Patient.",
+        "AppointmentService."
+    ]
+    },
+    {
+    "name": "AppointmentService",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+        "Crear una cita médica.",
+        ""
+    ],
+    "collaborators": [
+        "Patient.",
+        "Doctor.",
+        "Appointment."
+    ]
+    }
+]
