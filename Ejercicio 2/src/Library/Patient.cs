@@ -100,4 +100,5 @@ namespace Library
             return !string.IsNullOrEmpty(phoneNumber);
         }
     }
+    // Por patron Expert, la clase Patient es la experta en conocer los datos necesarios para crear una instancia de paciente y por ello los verifica.
 }

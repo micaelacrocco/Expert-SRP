@@ -67,4 +67,5 @@ namespace Library
             return !string.IsNullOrEmpty(specialization);
         }
     }
+    // Por patron Expert, la clase Doctor es la experta en conocer los datos necesarios para crear una instancia de Doctor y por ello es la clase que lo verifica.
 }
